@@ -4,8 +4,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <header>
+        <div class="user">
+            <a href=""><i class="fa-regular fa-user"></i>Tài khoản</a>
+            <a href="">Hotline 19006750</a>
+        </div>
+
+        <div class="header-top">
+            <div class="container logo" >
+                <div class="row" >
+                    <div class="col-md-4"><img src="image/logo.webp" alt="" width="272" height="68"></div>
+                    
+                    <div class="col-md-8" >
+                        <div class="header-menu">
+                            <div class="box">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="text-container">
+                                    <p>Yêu thích</p>
+                                    <span class="count-text">0 Sản phẩm</span>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="text-container">
+                                    <p>Giỏ hàng</p>
+                                    <span class="count-text">0 Sản phẩm</span>
+                                </div>
+                            </div>
+
+                            <div class="search-container">
+                                <input type="text" id="search-input" placeholder="Tìm kiếm sản phẩm...">
+                                <button type="button" id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu">
+            <ul style="margin-left: 450px;">
+                <li>
+                    <a href="">Trang chủ</a>
+                </li>
+
+               
+                <li>
+                    <a href="">Sản phẩm</a>
+                    <ul>
+                        <li>
+                            <a href="">Máy khoan</a>
+                            <ul>
+                                <li>
+                                    <a href="">Máy khoan động lực</a>
+                                </li>
+                                <li>
+                                    <a href="">Máy khoan pin</a>
+                                </li>
+                                <li>
+                                    <a href="">Máy khoan bê tông</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="">Máy Mài</a>
+                            <ul>
+                                <li>
+                                    <a href="">Máy mài pin</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Máy mài điện</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="">Máy Cưa</a>
+                            <ul>
+                                <li>
+                                    <a href="">Máy cưa pin</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Máy cưa điện</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="">Về chúng tôi</a>
+                </li>
+
+
+                <li>
+                    <a href="">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+        
+       
+        
+    </header>
+
+    <footer class="footer">
+        <div class="mid-footer" >
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4 logo_footer" style="margin: 10px;">
+                        <a href=""><img src="image/logo_foo.webp" alt="" width="272px" height="68px"></a>
+                        <div class="des-foo" style="margin-bottom: 10px;">
+                            <p>Bean Tools - Siêu thị trực tuyến mua sắm dụng cụ, thiết bị, đồ nghề chính hãng.</p>                         
+                            <span>Giá siêu tốt - Giao siêu tốc</span>
+                        </div>
+
+                        <div class="list_phone_foo">
+                            <a href=""><i class="fa-solid fa-phone-volume"></i>
+                                Tư vấn mua hàng
+                                <br>
+                                <span style="margin-left: 20px;">1900 800 111</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 ft-menu" style="margin-left: 200px;">
+                        <div class="row">
+                            <div class="col-md-6 link-list">
+                                <h4 class="title-menu title-menu2">Chính sách</h4>
+                                <ul class="list-menu hidden-mobile">
+                                    <li>
+                                        <a href="">Chính sách thành viên</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Chính sách thanh toán</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Chính sách đổi sản phẩm</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Chính sách bảo hành</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="col-md-6 link-list">
+                                <h4 class="title-menu title-menu2">Hướng dẫn</h4>
+                                <ul class="list-menu hidden-mobile">
+                                    <li>
+                                        <a href="">Hướng dẫn mua hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Hướng dẫn đổi trả</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Hướng dẫn thanh toán</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Câu hỏi thường gặp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
+                   
     
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

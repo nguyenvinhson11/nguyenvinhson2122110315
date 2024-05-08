@@ -1,0 +1,222 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user {
+    background-color: #ffb400;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+.user a {
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.logo {
+    margin-top: 16px;
+}
+
+/* Thanh menu header */
+.header-menu {
+    display: flex;
+}
+
+.header-menu .box {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.header-menu .box i {
+    font-size: 24px; /* Kích thước của icon */
+    margin-right: 10px; /* Khoảng cách giữa icon và văn bản */
+    border-radius: 50%; /* Tạo hình dạng vòng tròn cho icon */
+    background-color: #ffb400; /* Màu nền là màu vàng */
+    padding: 10px; /* Tạo khoảng cách giữa biên và icon */
+    color: black; /* Màu của icon */
+}
+
+.header-menu .box .text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-menu .box .text-container p,
+.header-menu .box .text-container .count-text {
+    margin: 0;
+}
+
+.search-container {
+    
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 300px;
+}
+
+#search-button {
+    padding: 8px;
+    background-color: #ffb400;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #ff7700;
+}
+
+/* end */
+
+
+
+/* thanh menu thứ 2*/
+.menu{
+    background-color:#ffb400 ;
+    margin-top: 16px;
+    
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hiển thị các mục menu theo chiều ngang */
+    font-weight: bold;
+    
+   
+    
+    
+}
+
+.menu ul li {
+    position: relative;
+   width: 200px;
+   background-color: #ffb400;
+   
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    width: 200px;
+    
+   
+}
+
+.menu ul ul ul {
+    left: 100%;
+    top: 0;
+    
+}
+
+.menu ul li:hover > ul {
+    display: block;
+}
+
+.menu ul ul li {
+    position: relative;
+    
+}
+
+.menu ul ul li a {
+    padding: 10px 20px;
+}
+
+.menu ul ul li:hover {
+    background-color: #ff0000;
+}
+
+/* end */
+
+
+/* footer*/
+
+.footer{
+    background-color: black;
+   
+}
+
+
+.des-foo p{
+    color: white;
+}
+
+.des-foo span{
+    color: #ffb400;
+    margin-bottom: -5px;
+}
+
+
+
+
+
+.footer .mid-footer .list_phone_foo a {
+    border: 1px solid #ffb400;
+    border-radius: 3px;
+    padding: 3px;
+    position: relative;
+    display: block;
+    transition: 0.3s all;
+    font-size: 14px;
+    margin-bottom: 0;
+    
+    background-size: 20px;
+    
+    padding-left: 35px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 1.2;
+    width: 200px;
+}
+
+
+
+.ft-menu{
+    color: white;
+    margin-top: 30px;
+}
+
+.title-menu{
+    margin-left: 20px;
+}
+
+.list-menu li:hover{
+    color: red;
+}
